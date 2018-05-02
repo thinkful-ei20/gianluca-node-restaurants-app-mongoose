@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: JLDhhtkUwFVMlvERgjNwcrP3v64YELU2+oREFJDEJYTapKi0WSCmlneTezqG6UASYLV4p2bn6P2S/vBydTJy4/OQEyVF88geCAqDIXhTYQR4UwI2Kg6Z2tngut8YhQq2vzyVWZCxn/WgTwUUUweG2Av5VZrEncG090WpBk5WUjLZMG/hh5ijdnoaK3W+qgAJuHHrSx/+GPPYPAzk0/8oh03WEzCHJD66nXH/6vMSJATmEvDY8F7PguZGDmAlzY0ub/mflxJSfICL1DyLwDlG0j1Om6fIPlN551kZvNiM9Z7GC6g2zGwXAOT0GYDEfezn/fLwLgKLU8fQHKk7t3hKcnzz7lfhx4+HdQH4IhArVuuWBhFyLdjIEbhGNWw4r0xomT13neK9R2A2157ld036r3fUU6BARKVC6yWA6KvHYhE23ySKtj2iGE0MJHRfNIugRr1ACqQ2Dnr+KfXFWkFPlvjjP/ECNJ49w3aOgDxNmw/PL0VX5+QcYjT/VtWkYnS8sHnTCVDur3G45jBVbeMOimF+EMQtiAuaI3zGhiHCbgAnMI9iqCGW4k1soR4iLBwQVhiEzTxYHF7qeQATqXH/M2RyNGBpkvHoEw1UysFf/pxZecBzVvMLXSQDF5C4efadCdIwndqCRhtwDB0PxXjnB8hwXJ7Dudg8krRIGx5Df48=
+  app: sleepy-inlet-80327
+  on:
+    repo: thinkful-ei20/gianluca-node-restaurants-app-mongoose
